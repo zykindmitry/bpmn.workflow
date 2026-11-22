@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37827.9 d17.14
+VisualStudioVersion = 17.14.37827.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bpmn.Workflow.Abstractions", "Bpmn.Workflow.Abstractions\Bpmn.Workflow.Abstractions.csproj", "{9FDF9DAD-5681-4FC5-AF56-A1BF69E07C74}"
 EndProject
@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bpmn.Workflow.Persistence",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bpmn.Workflow.Engine", "Bpmn.Workflow.Engine\Bpmn.Workflow.Engine.csproj", "{01E527F6-AE17-43D7-A267-C4E5C3860D35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bpmn.Workflow.Service", "Bpmn.Workflow.Service\Bpmn.Workflow.Service.csproj", "{264EC78D-E443-45C5-AE4F-BCCB9B77B8A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bpmn.Workflow.Runtime", "Bpmn.Workflow.Runtime\Bpmn.Workflow.Runtime.csproj", "{DEAC10B2-8C60-43E8-8B2B-97DECDE31BE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bpmn.Workflow.Api", "Bpmn.Workflow.Api\Bpmn.Workflow.Api.csproj", "{0B61FA31-6DCA-4308-B9ED-D84CD88E7222}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bpmn.Workflow.Api", "Bpmn.Workflow.Api\Bpmn.Workflow.Api.csproj", "{BCB66979-BA16-4E58-AF40-4A80F3EAEC4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{01E527F6-AE17-43D7-A267-C4E5C3860D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E527F6-AE17-43D7-A267-C4E5C3860D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E527F6-AE17-43D7-A267-C4E5C3860D35}.Release|Any CPU.Build.0 = Release|Any CPU
-		{264EC78D-E443-45C5-AE4F-BCCB9B77B8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{264EC78D-E443-45C5-AE4F-BCCB9B77B8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{264EC78D-E443-45C5-AE4F-BCCB9B77B8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{264EC78D-E443-45C5-AE4F-BCCB9B77B8A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0B61FA31-6DCA-4308-B9ED-D84CD88E7222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B61FA31-6DCA-4308-B9ED-D84CD88E7222}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B61FA31-6DCA-4308-B9ED-D84CD88E7222}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B61FA31-6DCA-4308-B9ED-D84CD88E7222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAC10B2-8C60-43E8-8B2B-97DECDE31BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAC10B2-8C60-43E8-8B2B-97DECDE31BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAC10B2-8C60-43E8-8B2B-97DECDE31BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAC10B2-8C60-43E8-8B2B-97DECDE31BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB66979-BA16-4E58-AF40-4A80F3EAEC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB66979-BA16-4E58-AF40-4A80F3EAEC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB66979-BA16-4E58-AF40-4A80F3EAEC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB66979-BA16-4E58-AF40-4A80F3EAEC4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

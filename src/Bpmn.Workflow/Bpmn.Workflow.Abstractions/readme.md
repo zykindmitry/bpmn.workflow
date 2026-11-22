@@ -328,6 +328,8 @@ https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Wo
 https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Workflow.Abstractions/FlowObjects/IGateway.cs
 https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Workflow.Abstractions/FlowObjects/IUpdateDocumentTask.cs
 https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Workflow.Abstractions/FlowObjects/ICatchEvents.cs
+https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Workflow.Abstractions/FlowObjects/IServiceTask.cs
+https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Workflow.Abstractions/FlowObjects/IUserTask.cs
 https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Workflow.Abstractions/Execution/IFlowNodeHandler.cs
 https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Workflow.Abstractions/Execution/IExecutionContext.cs
 https://github.com/zykindmitry/bpmn.workflow/blob/main/src/Bpmn.Workflow/Bpmn.Workflow.Abstractions/Execution/NodeExecutionResult.cs

@@ -5,7 +5,7 @@
 /// <see cref="Documents.IDocumentStateProvider{TDocument}"/> and replace the in-flight
 /// snapshot with the fetched state.
 /// </summary>
-public interface IUpdateDocumentTask : IFlowNode
+public interface IUpdateDocumentTask : IHasIncoming, IHasOutgoing
 {
     /// <summary>Descriptor for the developer's <c>IDocumentStateProvider&lt;TDocument&gt;</c>.</summary>
     HandlerDescriptor Provider { get; }

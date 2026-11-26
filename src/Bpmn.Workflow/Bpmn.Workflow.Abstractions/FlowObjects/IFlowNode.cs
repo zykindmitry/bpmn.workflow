@@ -1,24 +1,24 @@
 ﻿namespace Bpmn.Workflow.FlowObjects;
 
-/// <summary>Base contract for any node in the frozen process graph.</summary>
 public interface IFlowNode
 {
-    /// <summary>Stable node identifier within the definition.</summary>
     string Id { get; }
-
-    /// <summary>Human-readable name.</summary>
-    string Name { get; }
-
-    /// <summary>Kind of the node.</summary>
+    string? Name { get; }
     FlowNodeType Type { get; }
+}
 
-    /// <summary>Ids of nodes with an incoming edge to this node.</summary>
+public interface IHasIncoming : IFlowNode
+{
     IReadOnlyList<string> Incoming { get; }
+}
 
-    /// <summary>Ids of nodes with an outgoing edge from this node.</summary>
+public interface IHasOutgoing : IFlowNode
+{
     IReadOnlyList<string> Outgoing { get; }
 }
 
-public interface IStartEvent : IFlowNode { }
+/// <summary>Entry point of a scope. Has outgoing edges only.</summary>
+public interface IStartEvent : IHasOutgoing { }
 
-public interface IEndEvent : IFlowNode { }
+/// <summary>Terminal node of a scope. Has incoming edges only.</summary>
+public interface IEndEvent : IHasIncoming { }

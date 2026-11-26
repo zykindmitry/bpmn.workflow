@@ -7,4 +7,8 @@
     <RootNamespace>Bpmn.Workflow</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="FlowObjects\" />
+  </ItemGroup>
+
 </Project>

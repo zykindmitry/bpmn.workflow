@@ -19,22 +19,6 @@ public interface IFlowNode
     IReadOnlyList<string> Outgoing { get; }
 }
 
-/// <summary>Kinds of nodes the engine recognizes in the frozen graph.</summary>
-public enum FlowNodeType
-{
-    StartEvent,
-    EndEvent,
-    ServiceTask,
-    UserTask,
-    UpdateDocument,
-    ExclusiveGateway,
-    ParallelGateway,
-    InclusiveGateway,
-    TimerCatchEvent,
-    MessageCatchEvent,
-    SubProcess
-}
-
 public interface IStartEvent : IFlowNode { }
 
 public interface IEndEvent : IFlowNode { }

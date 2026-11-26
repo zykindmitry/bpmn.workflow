@@ -8,7 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="FlowObjects\" />
+    <Compile Remove="FlowObjects\**" />
+    <EmbeddedResource Remove="FlowObjects\**" />
+    <None Remove="FlowObjects\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bpmn.Workflow.Abstractions\Bpmn.Workflow.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

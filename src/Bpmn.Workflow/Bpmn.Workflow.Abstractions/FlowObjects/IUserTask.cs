@@ -1,6 +1,6 @@
 ﻿namespace Bpmn.Workflow.FlowObjects;
 
-public interface IUserTask : IFlowNode
+public interface IUserTask : IHasIncoming, IHasOutgoing
 {
     /// <summary>
     /// Id of the expression that computes the assignee set from the current document.

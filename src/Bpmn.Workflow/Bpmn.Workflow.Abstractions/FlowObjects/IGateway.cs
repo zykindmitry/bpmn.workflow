@@ -1,6 +1,6 @@
 ﻿namespace Bpmn.Workflow.FlowObjects;
 
-public interface IGateway : IFlowNode
+public interface IGateway : IHasIncoming, IHasOutgoing
 {
     IReadOnlyList<IBranchDefinition> Branches { get; }
 }
